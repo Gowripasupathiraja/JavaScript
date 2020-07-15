@@ -1,0 +1,34 @@
+<html>
+	<head>
+		<title>JavaScript - Function to Display Table of an entered Number.</title>
+		<script type="text/javascript">
+			function democheck(){
+				var secondTextBox = Number(document.getElementById("n1").value);
+				if( secondTextBox >= 5){
+					alert("please enter number between 1 to 5");
+				}
+
+				else
+				{
+					var  firstTextBox = document.getElementById("txtNumber").value;
+					for(i=0 ; i<secondTextBox; i++){
+						document.getElementById("content").innerHTML = firstTextBox;
+
+					}
+				}
+			}
+		</script>
+	</head>
+
+	<body>
+		
+		<input type="text" id="txtNumber" placeholder="Type Something" name="firstTextBox"  /><br><br>
+		<input type="text" id="n1" placeholder="Enter number" name="secondTextBox" ,onclick="democheck()" /><br><br>
+
+		<input type="button" value="submit" onclick="democheck()" />
+		<div id="content">
+			
+		</div>
+			</body>
+
+</html>
