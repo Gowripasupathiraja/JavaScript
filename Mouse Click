@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Response to mouse click</title>
+	<script type="text/javascript">
+		function my_fun1(){
+			my_img.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT5ZKiko1irNhEniW0WRFFdp4Z1roEDaI9Vwg&usqp=CAU";
+
+		}
+		function my_fun2(){
+			my_img.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ2B1waJcmG3yucak-91pLRPnzoWVGv6yGzJw&usqp=CAU";
+		}
+	</script>
+</head>
+<body>
+	<center>
+<img id="my_img" onmousedown="my_fun1()" onmouseup="my_fun1()" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ2B1waJcmG3yucak-91pLRPnzoWVGv6yGzJw&usqp=CAU" width="200" height="150" />
+<p>Click the image</p>
+</center>
+</body>
+</html>
