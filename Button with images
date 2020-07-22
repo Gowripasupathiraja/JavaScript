@@ -7,10 +7,10 @@
 			my_img.src ="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTR9mSlyWQoRG92YOO3H2W767ijaTvsJmBMWw&usqp=CAU";
 		}
 		function my_fun2(){
-			my_img.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTwosXOy9B2EJfConxm7acjzLBMkOlVRl7SrQ&usqp=CAU";
+			my_img.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSZc6S0QPrAQD5sswdpqZ7oW-EqitFb0U35kg&usqp=CAU";
 		}
 		function my_fun3(){
-			my_img.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSZc6S0QPrAQD5sswdpqZ7oW-EqitFb0U35kg&usqp=CAU";
+			my_img.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTwosXOy9B2EJfConxm7acjzLBMkOlVRl7SrQ&usqp=CAU";
 		}
 	</script>
 </head>
