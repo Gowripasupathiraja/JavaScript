@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mouse Cursor Demo</title>
+	<script type="text/javascript">
+		function my_fun(e){
+			points1.innerText = "With in client area"+"\n"+"X-position:"+e.clientX+"\n"+"Y-position:"+e.clientY;
+			points2.innerText = "\n"+"Relative to origin of screen"+"\n"+"X-position:"+e.screenX+"\n"+"Y-position:"+e.screenY;
+		}
+	</script>
+</head>
+<body onclick="my_fun(event);">
+	<span id="points1">(0,0)</span>
+	<br/>
+	<span id="points2">(0,0)</span>
+	<div align="center">
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSku70SF5yHu4auSsilDyoKAI_tP0xbr7dRjQ&usqp=CAU" />
+	</div>
+
+</body>
+</html>
