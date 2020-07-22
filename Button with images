@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>changing image</title>
+	<script type="text/javascript">
+		function my_fun1(){
+			my_img.src ="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTR9mSlyWQoRG92YOO3H2W767ijaTvsJmBMWw&usqp=CAU";
+		}
+		function my_fun2(){
+			my_img.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTwosXOy9B2EJfConxm7acjzLBMkOlVRl7SrQ&usqp=CAU";
+		}
+		function my_fun3(){
+			my_img.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSZc6S0QPrAQD5sswdpqZ7oW-EqitFb0U35kg&usqp=CAU";
+		}
+	</script>
+</head>
+<body>
+	<form>
+<input type="button" name="" value="lion1" onclick="my_fun1()">
+<input type="button" name="" value="lion2" onclick="my_fun2()">
+<input type="button" name="" value="lion3" onclick="my_fun3()">
+</form>
+<img id="my_img" />
+</body>
+</html>
